@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ttFont sfntVersion="OTTO" ttLibVersion="2.4">
+
+  <cmap ERROR=""> <!-- Use raw="1" for newer versions of ttx -->
+    <!-- Hand-coded Format 13 subtable mapping all of Unicode to cid00001 -->
+    <hexdata>
+      0000 0001 <!-- version numTables -->
+        0003 000A <!-- platformID encodingID -->
+        0000000C  <!-- offset -->
+          000D 0000 <!-- format reserved -->
+          000000F4  <!-- length -->
+          00000000  <!-- language -->
+          00000013  <!-- nGroups -->
+            00000000  <!-- startCharCode -->
+            0000D7FF  <!-- endCharCode -->
+            00000001  <!-- glyphID -->
+            0000E000  <!-- startCharCode -->
+            0000FDCF  <!-- endCharCode -->
+            00000001  <!-- glyphID -->
+            0000FDF0  <!-- startCharCode -->
+            0000FFFD  <!-- endCharCode -->
+            00000001  <!-- glyphID -->
+            00010000  <!-- startCharCode -->
+            0001FFFD  <!-- endCharCode -->
+            00000001  <!-- glyphID -->
+            00020000  <!-- startCharCode -->
+            0002FFFD  <!-- endCharCode -->
+            00000001  <!-- glyphID -->
+            00030000  <!-- startCharCode -->
+            0003FFFD  <!-- endCharCode -->
+            00000001  <!-- glyphID -->
+            00040000  <!-- startCharCode -->
+            0004FFFD  <!-- endCharCode -->
+            00000001  <!-- glyphID -->
+            00050000  <!-- startCharCode -->
+            0005FFFD  <!-- endCharCode -->
+            00000001  <!-- glyphID -->
+            00060000  <!-- startCharCode -->
+            0006FFFD  <!-- endCharCode -->
+            00000001  <!-- glyphID -->
+            00070000  <!-- startCharCode -->
+            0007FFFD  <!-- endCharCode -->
+            00000001  <!-- glyphID -->
+            00080000  <!-- startCharCode -->
+            0008FFFD  <!-- endCharCode -->
+            00000001  <!-- glyphID -->
+            00090000  <!-- startCharCode -->
+            0009FFFD  <!-- endCharCode -->
+            00000001  <!-- glyphID -->
+            000A0000  <!-- startCharCode -->
+            000AFFFD  <!-- endCharCode -->
+            00000001  <!-- glyphID -->
+            000B0000  <!-- startCharCode -->
+            000BFFFD  <!-- endCharCode -->
+            00000001  <!-- glyphID -->
+            000C0000  <!-- startCharCode -->
+            000CFFFD  <!-- endCharCode -->
+            00000001  <!-- glyphID -->
+            000D0000  <!-- startCharCode -->
+            000DFFFD  <!-- endCharCode -->
+            00000001  <!-- glyphID -->
+            000E0000  <!-- startCharCode -->
+            000EFFFD  <!-- endCharCode -->
+            00000001  <!-- glyphID -->
+            000F0000  <!-- startCharCode -->
+            000FFFFD  <!-- endCharCode -->
+            00000001  <!-- glyphID -->
+            00100000  <!-- startCharCode -->
+            0010FFFD  <!-- endCharCode -->
+            00000001  <!-- glyphID -->
+    </hexdata>
+  </cmap>
+
+</ttFont>

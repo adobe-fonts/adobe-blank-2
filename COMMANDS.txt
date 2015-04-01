@@ -1,0 +1,19 @@
+# Command lines for building Adobe Blank 2
+#
+# Version 2015-04-01
+#
+# The following AFDKO "makeotf" command line builds the OpenType/CFF
+# font:
+
+makeotf -f cidfont.ps -ff features -fi cidfontinfo -mf FontMenuNameDB -r -ch UnicodeAll-UTF32-H
+
+# To add the "stub" 'DSIG' table, to replace the 'OS/2' table with a
+# fully-specified one, to replace the place-holder 'cmap' table with
+# the Format 13 (many-to-one range mappings) one, and to nuke the
+# 'VORG', 'vhea', and 'vmtx' tables, the following AFDKO command lines
+# are used:
+
+sfntedit -a DSIG=DSIG.bin,OS/2=OS2.bin,cmap=cmap.bin -d VORG,vhea,vmtx AdobeBlank2.otf
+sfntedit -f AdobeBlank2.otf
+
+# EOF
