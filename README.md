@@ -6,7 +6,7 @@ Adobe Blank 2 is based on [Adobe Blank](https://github.com/adobe-fonts/adobe-bla
 
 Adobe Blank 2 maps 1,111,998 Unicode code points to its single non-spacing and non-marking glyph (CID+1). The 2,048 High and Low Surrogates (U+D800 through U+DFFF), the two noncharacters in the BMP and in each of the 16 Supplementary Planes (FFFE and FFFF), and the 32 noncharacters in the range U+FDD0 through U+FDEF are explicitly and intentionally excluded. As a fully-functional OpenType font, the following 10 'sfnt' tables are included: CFF, DSIG, OS/2, cmap, head, hhea, hmtx, maxp, name, and post.
 
-In addition to a functional OpenType/CFF font, a Base64-encoded version that can be embedded into a CSS file, and a CSS file that embeds the Base64-encoded version are included.
+In addition to a functional OpenType/CFF font, a TrueType (TTF) version, an EOT version, WOFF (for OpenType/CFF and TrueType) versions, a Base64-encoded version that can be embedded into a CSS file, and a CSS file that embeds the Base64-encoded version are included.
 
 Note that some environments might not be able to consume OpenType fonts with a Format 13 'cmap' subtable. If this is the case, please use [Adobe Blank](https://github.com/adobe-fonts/adobe-blank) instead.
 

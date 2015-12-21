@@ -1,11 +1,11 @@
 # Command lines for building Adobe Blank 2
 #
-# Version 2015-04-01
+# Version 2015-12-21
 #
 # The following AFDKO "makeotf" command line builds the OpenType/CFF
 # font:
 
-makeotf -f cidfont.ps -ff features -fi cidfontinfo -mf FontMenuNameDB -r -ch UnicodeAll-UTF32-H
+makeotf -f cidfont.ps -omitMacNames -ff features -fi cidfontinfo -mf FontMenuNameDB -r -ch UnicodeAll-UTF32-H
 
 # To add the "stub" 'DSIG' table, to replace the 'OS/2' table with a
 # fully-specified one, to replace the place-holder 'cmap' table with
