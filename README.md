@@ -28,4 +28,4 @@ In this repository, all necessary files are in place for building the OpenType/C
 
 ## Getting Involved
 
-Send suggestions for changes to the Adobe Blank 2 project maintainer, [Dr. Ken Lunde](mailto:lunde@adobe.com?subject=[GitHub]%20Adobe%20Blank%202), for consideration.
+For any suggestions for changes, please [create a new issue](https://github.com/adobe-fonts/adobe-blank-2/issues) for consideration.
